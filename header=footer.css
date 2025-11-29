@@ -1,0 +1,68 @@
+@media screen  and (max-width: 1119px){
+    header form div{
+         width: 236px;
+    }
+}
+@media screen  and (max-width: 991px){
+        header > .container{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+         header > .container > img{
+            margin-right: 50px;
+         }
+          header > .container form{
+            margin-right: 50px;
+          }
+
+         header > .container form, header > .container .cart{
+            margin-top: 20px;
+         }
+         header form div{
+            width: 335px;
+         }
+}
+@media screen and (max-width: 767px){
+   header .menu {
+    margin: 15px 0;
+   }
+}
+@media screen  and (max-width: 576px){
+ header .container .menu  a{ margin: 0px 10px;
+    }
+    header form div {
+        width: 240px;
+    }
+ 
+    header .menuIcon{
+        display: inline-block;
+        
+    }
+        header > .container > img {
+        margin-right: 170px;
+    }
+     header .container .menu {
+        display: none;
+     }
+        header .container .menu a {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        header .container .menu a:hover, header .container .menu a.active{
+            border-bottom: none;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            padding: 0;
+        }
+ 
+}
+@media screen  and (max-width: 519px){
+        header form div #sear1  {
+    
+    width: 120px;
+}
+   header form div {
+        width: 190px;
+    }
+}
