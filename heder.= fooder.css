@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: opensans;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../shrift/open-sans.regular.ttf");
+}
+@font-face{
+    font-family: opensans;
+    font-weight: 600;
+    
+    src: url("../shrift/open-sans.semibold.ttf");
+}
+.container-fluid{
+    width: 100%;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: "opensans", Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 16px;
+    
+}
+header .menuIcon{
+    display: none;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > .container{
+    padding: 44px 20px;
+}
+
+.imag{
+    width: 50px;
+}
+header .container .menu a{
+    font-size: 0.875em;
+    text-decoration: none;
+    color: #4b4b4e;
+    margin: 0 30px;
+
+}
+header .container .menu a:hover,
+header .container .menu a.active{
+    color: #dfa52b;
+   font-weight: 600;
+   padding-bottom: 7px;
+   border-bottom: 3px solid #dfa52b;
+}
+header form div{
+    justify-content: center;
+    padding: 10px 20px;
+    border: 1px solid #dfa52b;
+    border-radius: 50px;
+    width: 320px;
+}
+header form div #sear1{
+    border: none;
+}
+header form div #sear2{
+    width: 15px;
+    background: url(../image/magnifying-glass-solid-full.svg) no-repeat;
+    background-size: cover;
+    border: none;
+}
+header form div #sear2:hover{
+    cursor: pointer;
+}
+.image{
+    width: 25px;
+    margin-right: 7px;
+}
+header .cart{
+    align-items: flex-start;
+}
+header .cart div p{
+   font-size: 0.938em;
+     
+
+}
+header .cart div a{
+   font-size: 0.750em;
+   
+  color: #dfa52b;
+  
+}
+footer{
+    background-color: #4b4b4e;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.img2{
+    width: 50px;
+
+}
+footer .left{
+    align-items: flex-start;
+}
+footer .left figure figcaption{
+    color: whitesmoke;
+    font-size: 0.875em;
+    margin-top: 20px;
+    width: 130px;
+}
+
+footer .left nav{
+    margin-left: 50px;
+}
+
+footer .left nav a{
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 0.875em;
+}
+footer .left nav a:hover , footer .left a.active{
+    color: #dfa52b;
+}
